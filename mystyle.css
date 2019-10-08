@@ -1,0 +1,201 @@
+a:visited{
+	color: purple;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	font-size: 5em;
+}
+
+.hoverdarken:hover{
+	filter: invert(30%);
+}
+
+#homebutton{
+	filter: invert(100%);
+}
+
+#homebutton:hover{
+	filter: invert(90%);
+}
+
+.headimage{
+	color: white;
+	text-shadow: 0.06em 0.06em black;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 3em;
+	background-color: white;
+	background: url(wallofcode.jpg) no-repeat center center fixed; 
+	background-repeat: no-repeat;
+	background-size: cover;
+  	box-shadow: 0em 0.07em 0.05em gray;
+  	margin-bottom: 2%;
+  	padding: 1%;
+}
+
+@media all and (max-width: 600px) {
+	.headimage {
+		font-size: 2em;
+	}
+}
+
+#icon1 {
+	width: 50%;
+	border-right: solid gray 0.04em;
+}
+
+.icon2 {
+	width:100%;
+	padding:10%;
+}
+
+.icon3 {
+	width:100%;
+}
+
+.icon4 {
+	width:100%;
+	border: solid lightgray 0.1em;
+}
+
+.icon5 {
+	width:10%;
+}
+
+@media all and (max-width: 800px) {
+	.icon2 {
+		width:100%;
+		padding:10%;
+	}
+}
+
+#textbox1 {
+	font-size: 2.8em;
+	padding: 1%;
+	padding-top: 2%;
+}
+
+.textbox2 {
+	font-size: 3em;
+	padding: 0.5em;
+	border-right: 0.05em solid gray;
+}
+
+.textbox3 {
+	font-size: 3em;
+	padding-top: 5%;
+}
+
+
+.textbox4 {
+	font-size: 1.8em;
+	text-align: center;
+	padding-top: 5%;
+}
+
+.textbox5 {
+	padding: 1%;
+}
+
+.textbox6 {
+	font-size: 2.5em;
+}
+
+@media all and (max-width: 575px) {
+	.textbox2 {
+		font-size: 3em;
+		padding: 0.5em;
+		border-right: 0em solid gray;
+		border-bottom: 0.05em solid gray;
+	}
+
+	.textbox3 {
+	font-size: 2em;
+}
+
+	.textbox4 {
+	font-size: 1em;
+	text-align: center;
+	padding-top: 10%;
+	}
+
+	.textbox6 {
+	font-size: 1em;
+}
+
+	.icon3 {
+	width:0%;
+	}
+}
+
+@media all and (max-width: 1000px) and (min-width: 780px){
+	.textbox2 {
+		font-size: 2em;
+		padding: 0.5em;
+		border-right: 0.05em solid gray;
+	}
+
+	.textbox4 {
+	font-size: 1em;
+	text-align: center;
+	padding-top: 10%;
+	}
+
+	.textbox3 {
+	font-size: 2em;
+	padding-top: 5%;
+	}
+
+	.textbox6 {
+		font-size: 2em;
+	}
+
+}
+
+@media all and (max-width: 780px) and (min-width: 575px) {
+	.textbox2 {
+		font-size: 1em;
+		padding: 0.5em;
+		border-right: 0.05em solid gray;
+	}
+
+	.textbox3 {
+	font-size: 1em;
+	padding-top: 5%;
+	}
+
+	.textbox4 {
+	font-size: 0.8em;
+	text-align: center;
+	padding-top: 10%;
+	}
+
+	.textbox6 {
+		font-size: 1.5em;
+	}
+}
+
+#nopadding {
+	padding: 0%;
+}
+
+#boxstyle {
+	margin: 1%;
+	box-shadow: 0em 0.5em 1em gray; 
+}
+
+#hoverdarken:hover{
+	filter: invert(30%);
+}
+
+#hovercontrast:hover{
+	filter: contrast(30%);
+}
+
+#secret {
+	background-image: url(cursed.png);
+	background-size: cover;
+}
